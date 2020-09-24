@@ -29,7 +29,7 @@
     <parent>
         <groupId>com.hazelcast.jet</groupId>
         <artifactId>hazelcast-jet-extensions</artifactId>
-        <version>4.2</version>
+        <version>4.2-MC</version>
     </parent>
 
     <properties>
@@ -98,13 +98,13 @@
         </dependency>
 
         <!-- TEST -->
-        <dependency>
-            <groupId>com.hazelcast.jet</groupId>
-            <artifactId>hazelcast-jet-cdc-debezium</artifactId>
-            <version>${project.parent.version}</version>
-            <scope>test</scope>
-            <classifier>tests</classifier>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.hazelcast.jet</groupId>-->
+<!--            <artifactId>hazelcast-jet-cdc-debezium</artifactId>-->
+<!--            <version>${project.parent.version}</version>-->
+<!--            <scope>test</scope>-->
+<!--            <classifier>tests</classifier>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.testcontainers</groupId>
